@@ -1,27 +1,9 @@
 import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
 import '../Footer/Footer1css.css';
-
-
 
 function Footer1() {
   return (
     <>
-      <Navbar className='navbar fixed-bootom' bg="primary" data-bs-theme="dark" >
-        <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-          <Nav className="me-auto">
-            
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-          
-          </Nav>
-          
-        </Container>
-      </Navbar>
-
             <div className="container-footer">     
                 <div className="row">                       
                     <div className="col-lg-4 col-sm-4 col-xs-12">
