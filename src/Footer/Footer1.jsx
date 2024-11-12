@@ -4,6 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import '../Footer/Footer1css.css';
 
 
+
 function Footer1() {
   return (
     <>
@@ -61,7 +62,8 @@ function Footer1() {
                         </div>
                         <div className="social_profile">
                             <ul>
-                                <FontAwesomeIcon icon="fa-brands fa-facebook-f" />
+                                <i class="fa-solid fa-cutlery"></i>
+                                {/* <FontAwesomeIcon icon="fa-brands fa-facebook-f" /> */}
                                 <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i className="fab fa-twitter"></i></a></li>
                                 <li><a href="#"><i className="fab fa-google-plus-g"></i></a></li>

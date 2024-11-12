@@ -224,9 +224,10 @@
       margin: 0px 5px;
       font-size: 18px;
 
-background-color: #332222;
+/* background-color: #332222; */
 
-      color: #fff;
+      /* color: #fff */
+color: brown;
       border-radius: 30px;
       width: 50px;
       height: 50px;
