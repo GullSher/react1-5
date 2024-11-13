@@ -1,14 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-
+import React from 'react';
 import Navbar1 from './Menu/Navbar1.jsx';
-//import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Footer1 from './Footer/Footer1.jsx';
 // import 'font-awesome/css/font-awesome.min.css';
 // import Navbar2 from './Menu/Navbar2';
 // import { Carousel } from 'react-bootstrap';
 import Carousel1 from './Carousel/Carousel1.jsx';
+import StockList1 from './Stocklist/Stocklist.js';
+
+
 
 function App() {
   return (
@@ -42,7 +45,10 @@ function App() {
   </div>
 
       </header>
+<div className='StockList'>
+<StockList1 />
 
+</div>
 
 
 <div className='Footer1'>

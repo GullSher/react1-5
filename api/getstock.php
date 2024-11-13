@@ -2,13 +2,13 @@
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json; charset=UTF-8");
 
-$conn = new mysqli("localhost", "username", "password", "database_name");
+$conn = new mysqli("localhost", "root", "", "react1-5");
 
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT * FROM stock_items";
+$sql = "SELECT * FROM items";
 $result = $conn->query($sql);
 
 $data = array();
