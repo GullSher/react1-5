@@ -4,7 +4,7 @@ function StockList() {
     const [stockItems, setStockItems] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost/stockmngt/api/getstock.php")
+        fetch("http://localhost/stock-management/api/getstock.php")
             .then((response) => response.json())
             .then((data) => {
                 if (Array.isArray(data) && data.length > 0) {
