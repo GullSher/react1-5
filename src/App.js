@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import Navbar1 from './Menu/Navbar1.jsx';
@@ -9,8 +8,7 @@ import Footer1 from './Footer/Footer1.jsx';
 // import Navbar2 from './Menu/Navbar2';
 // import { Carousel } from 'react-bootstrap';
 import Carousel1 from './Carousel/Carousel1.jsx';
-import StockList1 from './Stocklist/Stocklist.js';
-
+import Stocklist1 from './Stocklist/Stocklist';
 
 
 function App() {
@@ -22,22 +20,7 @@ function App() {
   {/* <Navbar2 /> */}
 </div>      
 
-      <header className="App-header">
-
-{/* 
-  <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>  
- */}
+     <header className="App-header">
 
 
 <div className='Carousel1a'>
@@ -46,7 +29,7 @@ function App() {
 
       </header>
 <div className='StockList'>
-<StockList1 />
+<Stocklist1 />
 
 </div>
 
