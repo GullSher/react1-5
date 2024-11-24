@@ -108,6 +108,7 @@ function Stocklist() {
       <form onSubmit={handleInsert}>
         <div className="form-group">
           <label htmlFor="item_name">Item Name:</label>
+            
           <input
             type="text"
             className="form-control"
@@ -136,6 +137,7 @@ function Stocklist() {
             onChange={handleChange}
           />
         </div>
+        
         <div className="form-group">
           <label htmlFor="description">Description:</label>
           <input
@@ -146,7 +148,36 @@ function Stocklist() {
             onChange={handleChange}
           />
         </div>
-        <button type="submit" className="btn btn-primary">Insert</button>
+        <button type="submit" className="btn btn-primary">Insert Row</button>
+
+{/* 
+update employees
+set hourly_pay = 100.55,
+ hire_date="2024-02-04"
+where employee_id= 5;
+select * from employee;
+
+delete from employees; for all delete whole table
+where emplyees-id =6
+
+
+INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country)
+VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway');
+
+
+
+
+*/}
+
+{/* 
+
+
+
+
+*/}
+
+
+
       </form>
     </div>
   );
