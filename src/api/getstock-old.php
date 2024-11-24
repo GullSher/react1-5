@@ -9,6 +9,7 @@ if ($conn->connect_error) {
 }
 
 $sql = "SELECT * FROM items"; // Replace with your actual table name
+// $sql = "SELECT * FROM supplier";
 $result = $conn->query($sql);
 
 $data = array();

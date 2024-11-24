@@ -8,7 +8,7 @@ import Footer1 from './Footer/Footer1.jsx';
 // import Navbar2 from './Menu/Navbar2';
 // import { Carousel } from 'react-bootstrap';
 import Carousel1 from './Carousel/Carousel1.jsx';
-import Stocklist1 from './Stocklist/Stocklist';
+import Stocklist1 from './Stocklist/Stocklist.jsx';
 
 
 function App() {
